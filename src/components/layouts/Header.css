@@ -1,0 +1,31 @@
+header {
+    width: 95vw;
+    padding: 1.4rem 2rem;
+    background: #a98005;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin: 1rem 2rem;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.menu-links {
+    list-style: none;
+    display: flex;
+}
+.menu-links li {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 18px;
+    transition: .3s;
+    opacity: 0.8;
+}
+
+.menu-links li:hover {
+    opacity: 1;
+}
